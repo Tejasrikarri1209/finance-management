@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    s = input()
+    contains_alnum=any(i.isalnum() for i in s)
+    print(contains_alnum)
+    contains_alpha=any(i.isalpha() for i in s)
+    print(contains_alpha)
+    contains_digit=any(i.isdigit() for i in s)
+    print(contains_digit)
+    contains_lower=any(i.islower() for i in s)
+    print(contains_lower)
+    contains_upper=any(i.isupper() for i in s)
+    print(contains_upper)
